@@ -1,7 +1,7 @@
-package OOP;
+package Constructors;
 
 public class Human {
-    
+
     String name;
     int age;
     double weight;
@@ -12,8 +12,9 @@ public class Human {
         this.age = age;
         this.weight = weight;
     }
+
     void eat() {
-        System.out.println(this.name +" is eating!");
+        System.out.println(this.name + " is eating!");
     }
 
     void drink() {
